@@ -1,13 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="stylesheet" href="componentes/header.css">
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-
-    <header>Jossue Fuentes</header>
+    <header class="header">
+            <div class="container">
+                <div class="logo">
+                    <a href="#">
+                        <img src="https://salmorejogeek.com/wp-content/uploads/2016/09/tux_kernel_350.jpg" alt="Logo">
+                        <span>Jossue Fuentes</span>
+                    </a>
+                </div>
+        
+                <nav class="navigation">
+                    <ul class="menu">
+                        <li><a href="#" class="active">Inicio</a></li>
+                        <li><a href="#">Servicios</a></li>
+                        <li><a href="#">Productos</a></li>
+                        <li><a href="#">Nosotros</a></li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>
+        
+                    <div class="search-box">
+                        <input type="text" placeholder="Buscar...">
+                        <button><i class="fas fa-search"></i></button>
+                    </div>
+        
+                    <div class="mobile-menu-btn">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                </nav>
+            </div>
+    </header>
     <section>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores dolorem excepturi veniam hic libero eius quisquam ipsa amet officia ab laudantium, atque inventore possimus repellendus quod iste beatae nihil reiciendis.</p>
     </section>
