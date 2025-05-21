@@ -4,16 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="stylesheet" href="componentes/header.css">
+    <link rel="stylesheet" href="componentes/footer.css">
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-
-    <header>Jossue Fuentes</header>
-    <section class="seccion-1">
+    <header class="header">
+            <div class="container">
+                <div class="logo">
+                    <a href="#">
+                        <img src="https://salmorejogeek.com/wp-content/uploads/2016/09/tux_kernel_350.jpg" alt="Logo">
+                        <span>Jossue Fuentes</span>
+                    </a>
+                </div>
+        
+                <nav class="navigation">
+                    <ul class="menu">
+                        <li><a href="#" class="active">Inicio</a></li>
+                        <li><a href="#">Servicios</a></li>
+                        <li><a href="#">Productos</a></li>
+                        <li><a href="#">Nosotros</a></li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>
+        
+                    <div class="search-box">
+                        <input type="text" placeholder="Buscar...">
+                        <button><i class="fas fa-search"></i></button>
+                    </div>
+        
+                    <div class="mobile-menu-btn">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                </nav>
+            </div>
+    </header>
+    <section>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores dolorem excepturi veniam hic libero eius quisquam ipsa amet officia ab laudantium, atque inventore possimus repellendus quod iste beatae nihil reiciendis.</p>
     </section>
-    <footer class="foooter">
-        <a href="#">@rockemma</a>
-    </footer>
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <p>&copy; 2023 MiSitio. Todos los derechos reservados.</p>
 
+            <div class="social-links">
+                <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+            </div>
+
+            <div class="footer-credits">
+                <a href="#" class="credit-link">@rockemma</a>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>
